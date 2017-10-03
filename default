@@ -1,6 +1,6 @@
 server {
     root /var/www;
-    index index.html index.htm;
+    index rpa-compliance-coming-soon.html;
 
     # Make site accessible from http://localhost/
     server_name localhost;

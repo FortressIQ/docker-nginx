@@ -11,6 +11,7 @@ COPY default-ssl /etc/nginx/sites-available/default-ssl
 COPY directive-only /etc/nginx/directive-only
 COPY location /etc/nginx/location
 
+COPY ./web-site/ /var/www
 # expose both the HTTP (80) and HTTPS (443) ports
 EXPOSE 80 443
 
